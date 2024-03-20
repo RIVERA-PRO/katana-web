@@ -1,0 +1,36 @@
+.contact{
+    
+}
+
+.bg{
+    height: 15rem;
+    background-image: url(../../images/banner5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--blanco);
+    gap: 10px;
+    padding-top: 2rem;
+}
+.bg a{
+    color: var(--blanco);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+@media (max-width: 1024px) {
+    .contact{
+        padding: 0;
+       
+    }
+    .bg{
+        border-radius: 0;
+        
+}
+}

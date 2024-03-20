@@ -1,0 +1,59 @@
+
+.productosHomeContain{
+    padding: 10px 3%;
+}
+
+
+#swiperCardScroll{
+    width: 16rem;
+    margin: 10px;
+}
+.cardScroll{
+    width: 16rem;
+    height: 18rem;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 0.3px solid #00000037;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.cardcardScrollText h3{
+    color: var(--text-color);
+    font-size: 16px;
+}
+.cardScroll p{
+    color: var(--text-color2);
+    font-size: 14px;
+}
+.cardScroll h4{
+    color: var(--color1);
+    font-size: 14px;
+}
+.cardScroll img{
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+}
+
+@media (max-width: 920px){
+    .cardScroll{
+        height: 14rem;
+        width: 10rem;
+        
+    }
+    .cardScroll img{
+        height: 7rem;
+    }
+    #swiperCardScroll{
+        height: 14rem;
+        width: 10rem;
+        padding-left: 2%;
+        margin: 7px;
+    }
+    .productosHomeContain{
+        padding:  0;
+    }
+}
